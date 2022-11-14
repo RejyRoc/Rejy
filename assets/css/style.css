@@ -1,0 +1,500 @@
+/* mis en page*/
+    body{
+        margin: 0 auto;
+        padding: 0 auto;
+        font-size: 20px;
+        font-family: 'Josefin Sans', sans-serif;
+        
+        
+    }
+
+    #container{
+        background-color: aqua;
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        width: 1200px;
+        height: 1600px;
+    }
+
+/* mis en page*/
+
+
+/* Header*/
+    header{
+        background-color: rgb(240, 254, 255);
+        display: flex;
+        width: 100%;
+        height: 70px;
+        align-content: flex-end;
+        justify-content: space-between;
+        font-family: 'Josefin Sans', sans-serif;
+        font-size: 20px;
+
+        
+    }
+
+    nav ul{
+        list-style-type: none;
+        display: flex;
+    }
+    nav ul li{
+        margin: 10px;
+    }
+    nav a{
+        text-decoration: none;
+        color: rgb(0, 71, 138) ;
+    }
+    #titre_principal{
+        display: flex;
+        align-content: flex-end;
+        justify-content: space-between;
+        
+    }
+
+    #logo{
+        
+        font-weight: bold;
+        color:  rgb(0, 71, 138) ;
+        font-family: 'Josefin Sans', sans-serif;
+        margin: 30px;
+        margin-top: 20px;
+        text-decoration: none;
+
+        
+    }
+
+    nav ul li #contact-me{
+        margin: 20px;
+        
+        border-radius: 17px;
+        padding: 10px;
+        background-color: rgb(0, 71, 138) ;
+        color: white;
+    
+    }
+    nav ul li #contact-me:hover{
+        margin: 20px;
+        border-radius: 17px;
+        padding: 10px;
+        background-color: rgb(252, 252, 252) ;
+        color: rgb(0, 71, 138);
+        border: solid 1px;
+    
+    }
+
+/* Header*/
+
+
+/*Section About */
+
+
+#section_1{
+    background-color: rgb(240, 254, 255);
+    height: 550px;
+    width: 1200;
+    display: flex;
+    justify-content: space-between;
+    align-content: flex-end;
+   
+    padding: 20px;
+
+}
+
+
+/*about_rejy*/
+#about_rejy div p {
+    margin: 0px;
+}
+
+#about_rejy{
+    width: 500px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+}
+#t{
+    width: 400px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-content: center;
+}
+
+#hey{
+    padding: 0px;
+    margin: 0px;
+    font-size: 25px;
+
+   
+}
+#moi{
+    font-size: 40px;
+    margin: 0;
+    padding: 0;
+    
+}
+
+#about{
+    padding: 0px;
+    margin: 0px;
+    font-size: 25px;
+}
+#bouton_about {
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-content: center;
+}
+
+#bouton_about a{
+    
+    border-radius: 5px;
+    background-color: rgb(0, 71, 138) ;
+    color: white;
+    padding: 10px;
+    
+    text-decoration: none;
+    width: 120px;
+}
+
+#Rejy_Joseph_Roc{
+    color: rgb(0, 71, 138);
+}
+/*about_rejy*/
+
+#logo_Rejy{
+   
+    width: 450px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-content: center;
+}
+
+#img-r{
+    bottom: 25px;
+}
+
+/*Section About */
+
+/*Section Skills*/
+
+#skills h5{
+font-size: 25px;
+
+}
+
+#skills h3{
+ font-size: 60px;
+
+}
+
+
+#section_skills{
+    padding: 20px;
+    width:1160px ;
+    height: 520px;
+    background-color: rgb(240, 254, 255);
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-content: center;
+
+}
+#card{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.row{
+    width: 315px;
+    height: 225px;
+    background-color: rgb(178, 208, 248);
+    border-radius: 30px; 
+    padding: 20px;
+}
+
+/*Section Skills*/
+
+#section_portfolio{
+    background-color: rgb(240, 254, 255);
+    display: flex;
+    height: 1600px;
+    width: 1200px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-content: center;
+    padding-top: 60px;
+    padding-bottom: 40px;
+}
+#porfolio h5 {
+    font-size: 25px;
+}
+
+#porfolio h3{
+    font-size: 60px;
+} 
+
+
+#website{
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.to{
+    width: 300px;
+    height: 500px;
+    background-color:rgba(48, 66, 82, 0.103) ;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 10px 5px 5px rgb(48, 66, 82);
+    
+}
+
+.img_work{
+    width: 300px;
+    height: 225px;
+    
+
+}
+#img_ski{
+    width: 50px;
+    height: 40px;
+}
+
+.tom{
+    padding: 15px;
+}
+.boutton_view{
+    border-radius: 10px;
+    background-color: rgb(0, 71, 138) ;
+    color: white;
+    padding: 10px;
+    width: 120px;
+    text-decoration: none;
+    box-shadow: 5px 2.5px 2.5px rgb(48, 66, 82)
+}
+
+/*Section Skills*/
+
+/*Section Testimonial*/
+
+#testimonials{
+    width: 1160px;
+    height: 700px;
+    background-color: rgb(178, 208, 248);
+    display: flex;
+    flex-direction: column;
+    padding: 20px ;
+    padding-bottom: 120px;
+    padding-top: 80px;
+
+}
+#card_testi_section{
+    display: flex;
+    justify-content: space-between;
+}
+
+#titre_testimonials h3{
+    font-size: 60px;
+}
+
+.card_testimonials{
+    width: 320px;
+    border: solid;
+    height: 250px;
+    padding: 20px;
+    font-size: 15px;
+    text-align: center;
+    border-radius: 15px;
+    
+}
+ /* Contact me */
+#contact{
+    padding: 20px;
+    width:1160px ;
+    height: 870px;
+    background-color: rgb(240, 254, 255);
+    display: flex;
+    justify-items:center ;
+    align-items: center;
+    flex-direction: column;
+    
+}
+
+#form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    
+}
+
+.titre_git{
+    text-align: center;
+}
+
+#first{
+    display: flex;
+    
+    width: 770px;
+    height: 200px;
+    padding: 10px;
+    justify-content: space-between;
+}
+
+#sec_NL{
+    display: flex;
+    flex-direction: column; 
+    width: 300px;
+    padding: 10px;
+}
+
+#sec_EP{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    padding: 10px;
+}
+
+.signature{
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 40px;
+}
+
+.telefone{
+    display: flex;
+    flex-direction: column; 
+}
+.nom{
+    display: flex;
+    flex-direction: column; 
+    padding-bottom: 40px;
+}
+
+.emel{
+    display: flex;
+    flex-direction: column; 
+}
+#name{
+    padding: 10px;
+    border-radius: 10px;
+}
+#last_name{
+    padding: 10px;
+    border-radius: 10px;
+}
+#tel{
+    padding: 10px;
+    border-radius: 10px;
+}
+#email{
+    padding: 10px;
+    border-radius: 10px;
+}   
+
+#sec_objet{
+    
+    width: 750px;
+    height: 80px;
+    flex-direction: column;
+    display: flex;
+    padding: 20px;
+
+
+}
+
+#sujet {
+    padding: 10px;
+    border-radius: 10px;
+}
+
+#message{
+    
+    width: 750px;
+    height: 200px;
+    flex-direction: column;
+    display: flex;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+#button{
+    width: 750px;
+    
+    padding: 20px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+}
+
+#but{
+   width: 150px; 
+   height: 45px;
+   font-family: 'Josefin Sans', sans-serif;
+   border-radius: 5px;
+    background-color: rgb(0, 71, 138) ;
+    color: white;
+    border: none;
+    font-style: bold;
+    font-size: 20px;
+}
+
+#mesaj{
+    border-radius: 20px;
+}
+
+footer{
+    background-color: rgb(240, 254, 255);
+        display: flex;
+        width: 1160px;
+        height: 70px;
+        align-content: flex-end;
+        justify-content: space-between;
+        font-family: 'Josefin Sans', sans-serif;
+        font-size: 20px;
+        border-bottom: 1px solid;
+        padding: 20px;
+        
+}
+
+.icone{
+    width: 30px;
+    height: 30px;
+}
+#social{
+    
+    height: 30px;
+    width: 200px;
+}
+
+#dressement{
+    position: relative;
+    top: 25px;
+}
+
+footer nav ul li a {
+    color: black;
+}
+
+footer #titre_principal a {
+    color: black;
+}
+
+#droit{
+    background-color: rgb(240, 254, 255);
+    width: 1160px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+}
